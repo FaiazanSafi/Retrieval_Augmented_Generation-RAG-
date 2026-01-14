@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.db
+
+# Project specific
+chroma_db/
+temp_uploads/
+*.pdf
+*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ---- Streamlit ----
+.streamlit/
+
+# ---- HuggingFace / LangChain ----
+hf_cache/
+huggingface/
+langchain.db
